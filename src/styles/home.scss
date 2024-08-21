@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Handlee&display=swap');
+
 .home-container {
+  font-family: "Handlee", cursive;
   flex:1;
   display: flex;
   flex-direction: column;
-  .home-subsection {
+
+.home-subsection {
     min-height: 100vh;
     padding: 50px 15px 0;
     @media screen and (min-width: $tablet) {
@@ -11,26 +15,26 @@
     @media screen and (min-width: $laptop) {
       padding: 50px 100px 0;
     }
-    .subsection-intro-header {
+.subsection-intro-header {
       font-size: 1.5rem;
     }
-    .subsection-big-header {
+.subsection-big-header {
       font-size: 2.5rem;
       margin-bottom: 10px;
     }
-    .subsection-paragraph {
+.subsection-paragraph {
       margin-bottom: 15px;
       font-size: 1.2rem;
       max-width: 700px;
     }
-    a {
-      border: solid 1px black;
+a {
+      border: solid 1px rgb(13, 13, 13);
       max-width: 200px;
       padding: 5px;
       text-align: center;
     }
     a:hover {
-      background-color: black;
+      background-color: rgb(16, 14, 14);
       color: white;
     }
   }
